@@ -14,9 +14,9 @@ class Renderer : public GameThread{
            const std::size_t grid_width, const std::size_t grid_height);
   ~Renderer();
 
-  void Render(Snake const snake);
-  void Render(Snake const snake, Banana const &food);
-  void Render(Snake const snake, Banana const &food, Potion const &potion);
+  void Render(Snake const &snake);
+  void Render(Snake const &snake, Banana const &food);
+  void Render(Snake const &snake, Banana const &food, Potion const &potion);
   void UpdateWindowTitle(int score, int fps);
 
  private:
