@@ -42,7 +42,7 @@ Renderer::~Renderer() {
   SDL_Quit();
 }
 
-void Renderer::Render(Snake const snake, Banana const &food, Potion const &potion) {
+void Renderer::Render(Snake const &snake, Banana const &food, Potion const &potion) {
 
    // Clear screen
   SDL_SetRenderDrawColor(sdl_renderer, 0x1E, 0x1E, 0x1E, 0xFF);
@@ -66,7 +66,7 @@ void Renderer::Render(Snake const snake, Banana const &food, Potion const &potio
   SDL_RenderPresent(sdl_renderer);
 }
 
-void Renderer::Render(Snake const snake, Banana const &food) {
+void Renderer::Render(Snake const &snake, Banana const &food) {
  
   // Clear screen
   SDL_SetRenderDrawColor(sdl_renderer, 0x1E, 0x1E, 0x1E, 0xFF);
@@ -84,7 +84,7 @@ void Renderer::Render(Snake const snake, Banana const &food) {
   SDL_RenderPresent(sdl_renderer);
 }
 
-void Renderer::Render(Snake const snake)
+void Renderer::Render(Snake const &snake)
 {
   std::lock_guard<std::mutex> lock(_snakeMutex);
   

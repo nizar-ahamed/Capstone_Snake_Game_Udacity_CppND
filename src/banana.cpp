@@ -1,6 +1,6 @@
 #include "banana.h"
 
-void Banana::Eaten(Snake &snake)
+void Banana::Eaten(Snake &snake) 
 {
   // Grow snake and increase speed.
   snake.GrowBody();

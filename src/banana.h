@@ -9,7 +9,7 @@ class Banana : public Food {
  public:
   Banana(int grid_width, int grid_height, Snake snake) : Food(grid_width, grid_height, snake){} 
 
-  virtual void Eaten(Snake &snake);
+  virtual void Eaten(Snake &snake) override;
 
 };
 
