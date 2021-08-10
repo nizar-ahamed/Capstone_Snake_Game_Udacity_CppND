@@ -59,7 +59,7 @@ Parallel thread implemented to get controller input.
 ## Compiling and Testing (All Rubric Points REQUIRED)
 | Criteria                                                |  Status | File/Remark|
 | ------------------------------------------------------- | --------|---------|
-| The submission must compile and run. | Done|README.md
+| The submission must compile and run. | Done| see instructions in README.md
 
 ## Object Oriented Programming
 | Criteria                                                |  Status | File/Remark|
