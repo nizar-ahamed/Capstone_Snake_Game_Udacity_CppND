@@ -29,7 +29,6 @@ This project is based on the starter repo for the Capstone project in the [Udaci
 
 ## CC Attribution-ShareAlike 4.0 International
 
-
 Shield: [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
 
 This work is licensed under a
